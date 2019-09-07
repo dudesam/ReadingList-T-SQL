@@ -29,3 +29,13 @@
 + Use transactions in a concurrent environment
 
 + Get started with programmable objects–from variables and batches to user-defined functions, stored procedures, triggers, and dynamic SQL
+
+## **T-SQL Window Functions: For data analysis and beyond** by Itzik Ben-Gan
+
+[![T-SQL Window Functions][tsqlwf]](https://amzn.to/314OQyq)
+
+[tsqlwf]:https://images-na.ssl-images-amazon.com/images/I/41Efz%2BZnm-L._SX406_BO1,204,203,200_.jpg "T-SQL Window Functions"
+
+> Most T-SQL developers recognize the value of window functions for data analysis calculation. But window functions can do far more than that, and optimizations in recent versions of SQL Server have made them more powerful than ever. In T-SQL Window Functions: For Data Analysis and Beyond, renowned T-SQL expert Itzik Ben-Gan introduces breakthrough techniques for using window functions to handle many common T-SQL querying tasks with unprecedented elegance and power.
+
+Ben-Gan first explains why window functions can often be a far better solution than traditional predicate-based approaches. Next, using extensive code examples, he guides you through each type of window function: Aggregate, Ranking, Distribution and Offset. You’ll find detailed coverage of ordered set functions (including SQL Server 2017’s STRING_AGG); plus an extensive section on optimization. The book concludes with roughly 100 pages of real T-SQL solutions using window function approaches — including techniques invented by the author and available in no other book.
