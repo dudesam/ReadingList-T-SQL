@@ -48,7 +48,7 @@ Ben-Gan first explains why window functions can often be a far better solution t
 
 > If a query is performing poorly, and you can't understand why, then that query's execution plan will tell you not only what data set is coming back, but also what SQL Server did, and in what order, to get that data. It will reveal how the data was retrieved, and from which tables and indexes, what types of joins were used, at what point filtering, sorting and aggregation occurred, and a whole lot more. These details will often highlight the likely source of any problem.
 
-I wrote this book with the singular goal of teaching you how to read SQL Server Execution plans It will explain, among many other things, the following: 
+I wrote this book with the singular goal of teaching you how to read SQL Server Execution plans It will explain, among many other things, the following:
 
 + How to capture execution plans using manual and automatic methods
 
@@ -61,3 +61,31 @@ I wrote this book with the singular goal of teaching you how to read SQL Server 
 + How the Query Store works with, and collects data on, execution plans
 
 With this knowledge, you'll have everything you need to read the execution plan, for any query of your own, regardless of complexity, and understand what it does and what is causing the bad performance. It is still your job to work out how best to fix it, but your new understanding of execution plans will give a much better chance of success!
+
+## **SQL Server 2017 Query Performance Tuning: Troubleshoot and Optimize Query Performance** by Grant Fritchey
+
+[![QL Server 2017 Query Performance Tuning][sqlpt]](https://amzn.to/2PSukja)
+
+[sqlpt]:https://images-na.ssl-images-amazon.com/images/I/51uUu0a7RgL._SX348_BO1,204,203,200_.jpg "QL Server 2017 Query Performance Tuning"
+
+> Identify and fix causes of poor performance. You will learn Query Store, adaptive execution plans, and automated tuning on the Microsoft Azure SQL Database platform. Anyone responsible for writing or creating T-SQL queries will find valuable the insight into bottlenecks, including how to recognize them and eliminate them.
+
+This book covers the latest in performance optimization features and techniques and is current with SQL Server 2017. If your queries are not running fast enough and you’re tired of phone calls from frustrated users, then this book is the answer to your performance problems.
+
+SQL Server 2017 Query Performance Tuning is about more than quick tips and fixes. You’ll learn to be proactive in establishing performance baselines using tools such as Performance Monitor and Extended Events. You’ll recognize bottlenecks and defuse them before the phone rings. You’ll learn some quick solutions too, but emphasis is on designing for performance and getting it right. The goal is to head off trouble before it occurs.
+
+### **What You'll Learn**
+
++ Use Query Store to understand and easily change query performance
+
++ Recognize and eliminate bottlenecks leading to slow performance
+
++ Deploy quick fixes when needed, following up with long-term solutions
+
++ Implement best practices in T-SQL to minimize performance risk
+
++ Design in the performance that you need through careful query and index design
+
++ Utilize the latest performance optimization features in SQL Server 2017
+
++ Protect query performance during upgrades to the newer versions of SQL Server
